@@ -5,17 +5,17 @@ To develop an object detection system using a web camera that identifies and cla
 ## ALGORITHM :
 
 ### Step-1 :
-1. Load YOLO v4 weights and configuration files.
+Load YOLO v4 weights and configuration files.
 ### Step-2 :
-2. Retrieve the output layer names required for predictions.
+Retrieve the output layer names required for predictions.
 ### Step-3 :
-3. Load COCO dataset class names for object classification.
+Load COCO dataset class names for object classification.
 ### Step-4 :
-4. Access Laptop Camera:
+Access Laptop Camera:
 ### Step-5 :
-5. Initialize a video capture object using OpenCV to stream from the laptop camera.
+Initialize a video capture object using OpenCV to stream from the laptop camera.
 ### Step-6 :
-6. Capture each frame from the camera.
+Capture each frame from the camera.
 
 ## PROGRAM :
 ```py
