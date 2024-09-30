@@ -20,7 +20,6 @@ To develop an object detection system using a web camera that identifies and cla
 ## PROGRAM :
 ```py
 DEVELOPED BY : MOHAMED ATHIL B
-
 REG NO : 212222230081
 ```
 ```PY
