@@ -1,25 +1,29 @@
-# Object-detection
-## AIM 
+# OBJECT - DETECTION
+## AIM : 
 To develop an object detection system using a web camera that identifies and classifies objects in real-time using a pre-trained deep learning model such as YOLO.
-## ALGORITHM
-### STEP 1:
+
+## ALGORITHM :
+
+### Step-1 :
 1. Load YOLO v4 weights and configuration files.
-### STEP 2
+### Step-2 :
 2. Retrieve the output layer names required for predictions.
-### STEP 3
+### Step-3 :
 3. Load COCO dataset class names for object classification.
-### STEP 4
+### Step-4 :
 4. Access Laptop Camera:
-### STEP 5
+### Step-5 :
 5. Initialize a video capture object using OpenCV to stream from the laptop camera.
-### STEP 6
+### Step-6 :
 6. Capture each frame from the camera.
 
-## DEVELOPED BY : ROSELIN MARY JOVITA
-## REG NO : 212222230122
-
 ## PROGRAM :
+```py
+DEVELOPED BY : MOHAMED ATHIL B
+
+REG NO : 212222230081
 ```
+```PY
 import cv2
 import numpy as np
 
@@ -97,8 +101,8 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
-## OUTPUT
+## OUTPUT :
 ![Screenshot 2024-09-26 113712](https://github.com/user-attachments/assets/fc2d4076-851f-4d5e-be1b-09340d293bd0)
 
-## RESULT
+## RESULT :
 Thus Real-time object detection with labeled bounding boxes around detected objects in the camera feed has been implemented successfully.
